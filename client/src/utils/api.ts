@@ -1,7 +1,7 @@
 import axios from "axios";
 
 export const api = axios.create({
-  baseURL: "http://localhost:4000/api",
+  baseURL: "https://celestia-backend-q1s2.onrender.com/api",
   headers: {
     "Content-Type": "application/json"
   }
