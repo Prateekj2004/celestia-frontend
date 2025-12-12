@@ -10,17 +10,12 @@ export default defineConfig({
 
   resolve: {
     alias: {
-      "@": "/src",
-    },
+      "@": "/src"
+    }
   },
 
   build: {
     outDir: "dist",
-    emptyOutDir: true,
-    assetsDir: "assets",
-  },
-
-  server: {
-    port: 5173
+    emptyOutDir: true
   }
 });
